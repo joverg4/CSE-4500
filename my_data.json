@@ -29,6 +29,10 @@
   
 	"skills": [{
 		"skills": "Programming"
+	}],
+	
+	"interests": [{
+		"interests": "Programming"
 	}]
 }
 
