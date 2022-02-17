@@ -37,9 +37,12 @@
           <p><?php echo $json_data['introduction']; ?></p>
         </div>
       </div>
+  </div>
+
       <hr>
+
       <div id="education" class="content-item">
-        <<div class="vertical-center">
+        <div class="vertical-center">
           <h2>Education</h2>
           <?php foreach($json_data['education'] AS $education) { ?>
               <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
@@ -55,7 +58,9 @@
           <?php  } ?>
         </div>
       </div>
+
       <hr>
+
       <div id="experience" class="content-item">
         <div class="vertical-center">
           <h2>Experience</h2>
@@ -74,6 +79,7 @@
         </div>
       </div>
       <hr>
+
     </div>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
