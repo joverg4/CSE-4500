@@ -37,7 +37,7 @@
           <p><?php echo $json_data['introduction']; ?></p>
         </div>
       </div>
-  </div>
+    </div>
 
       <hr>
 
@@ -63,11 +63,11 @@
 
       <div id="experience" class="content-item">
         <div class="vertical-center">
-          <h2>Experience</h2>
+          <h4>Experience</h4>
           <?php foreach($json_data['experience'] AS $experience) { ?>
               <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                 <div class="flex-grow-1">
-                  <h3 class="mb-0"><?php echo $experience['title']; ?></h3>
+                  <h5 class="mb-0"><?php echo $experience['title']; ?></h5>
                   <div class="subheading mb-3"><?php echo $experience['employer']; ?></div>
                   <p><?php echo $experience['description']; ?></p>
                 </div>
