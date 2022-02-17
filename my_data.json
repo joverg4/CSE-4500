@@ -28,11 +28,11 @@
     }],
   
 	"skills": [{
-		"skills": "Programming"
+		"skills": ["Programming"]
 	}],
 	
 	"interests": [{
-		"interests": "Programming"
+		"interests": ["Programming"]
 	}]
 }
 
