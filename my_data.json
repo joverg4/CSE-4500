@@ -17,6 +17,15 @@
       "employer":"CSUSB",
       "period":"March 2018 - 2021",
       "description":"A description of your experience with this job."
+    } 
+  ],
+  
+  "education": {
+      "school": "CSUSB",
+      "major": "Computer Science",
+      "period": "March 2018 - Present",
+      "description": "A description of your experience with this job."
     }
-  ]
+  
 }
+
