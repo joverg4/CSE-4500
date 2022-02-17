@@ -22,6 +22,8 @@
           <a class="nav-link" href="#about">About</a>
           <a class="nav-link" href="#education">Education</a>
           <a class="nav-link" href="#experience">Experience</a>
+          <a class="nav-link" href="#skills">Skills</a>
+          <a class="nav-link" href="#interests">Interests</a>
         </nav>
       </nav>
     </div>
@@ -75,6 +77,13 @@
       </div>
       <hr>
     </div>
+    <div id="skills" class= "content-item">
+        <div class = "vertical-center">
+            <h2>Skills</h2>
+            <h4><?php echo $json_data['skills']; ?><h4>
+            <p>...</p>
+        </div>
+    
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
   </body>
