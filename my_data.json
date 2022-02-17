@@ -20,12 +20,12 @@
     } 
   ],
   
-  "education": {
+  "education": [{
       "school": "CSUSB",
       "major": "Computer Science",
       "period": "March 2018 - Present",
       "description": "A description of your experience with this job."
-    }
+    }]
   
 }
 
